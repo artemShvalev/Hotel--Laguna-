@@ -1,0 +1,1265 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: MullerBold;
+    src: url(../fonts/MullerBold.woff);
+}
+@font-face{
+    font-family:MullerLight;
+    src: url(../fonts/MullerLight.woff);
+}
+@font-face{
+    font-family: MullerRegular;
+    src: url(../fonts/MullerRegular.woff);
+
+}
+@font-face{
+    font-family: MullerMedium;
+    src: url(../fonts/MullerMedium.woff);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 1920px;
+    height: 5324px;
+    background-color: #f1f1f1;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.content{
+    max-width: 1170px;
+    height: 5324px;
+}
+
+.telephone{
+    font-family: "MullerBold", Regular;
+    display: flex;
+    position: absolute;
+    margin-left: 662px;
+    margin-top: -34px;   
+}
+
+img{
+    margin-left: 377px;
+    margin-top: 30px;
+    padding-right: 30px;
+    
+}
+
+.kabinet{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    margin-right: 384px;
+    margin-top: 50px;
+    font-family: "MullerRegular";
+    
+}
+a{
+    text-decoration: none;
+    color: #cc9933;
+}
+.item-icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right:100px;
+    margin-top:-32px;  
+}
+
+/*нав-бар*/
+
+.main-link{
+    margin-left: 377px;
+    margin-top: -50px;
+    font-family: "MullerRegular";
+}
+
+.link-item{
+    display: inline-flex;  
+}
+
+.link-2{
+    color: black;
+    text-decoration: none;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.link-3{
+    color: black;
+    text-decoration: none;
+    padding-left: 25px;
+}
+
+.search-form{
+    display:flex;
+    justify-content: flex-end;
+    margin-right:-350px;
+    margin-top: -30px;
+    font-family: "MullerRegular";
+    opacity: 0.8;
+
+}
+
+input{
+    height: 50px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color:#ffffff;
+    color:#c2c2c2;
+    opacity:0.5; 
+}
+
+.input-form{
+    display: flex;
+    height: 70px;
+    width: 520px;
+    padding: 15px;
+    border-radius: 50px;
+    color:#c2c2c2;
+    margin-bottom: 25px;
+    font-family: "MullerRegular";
+    font-size: 16px;
+    margin-top: 30px;
+    background-color:#ffffff;
+    box-shadow: none;
+    
+}
+.text{
+    display: flex;
+    margin-left: 377px;
+    margin-top: 90px;
+    flex-direction: column;
+   
+}
+.qweqly{
+font-size: 40px;
+font-family: "MullerRegular";
+color: rgb(51, 51, 51);
+line-height: 0.8;
+
+}
+
+.btn{
+  width: 160px;
+  height: 70px;
+  background-color: #cc9933;
+  color: #ffffff;
+  border-radius: 15px;
+  box-shadow: none;
+  font-family: "MullerRegular";
+  font-size: 16px;
+}
+.wtf{
+    font-family: "MullerRegular";
+    font-size: 16px; 
+    margin-top: -60px;
+    margin-left: 250px;  
+}
+.z{
+    color: #dbbc7f;
+    margin-top: px;
+    margin-left:70px ;
+}
+.give{
+    margin-bottom: 0px;
+}
+
+.spec{
+  position: relative;
+  top: -658px;
+  right: -250px;
+
+    
+}
+
+.spec-string{
+    font-size: 40px;
+    font-family: "MullerRegular";
+    color: rgb(51, 51, 51);
+    text-align: center;
+    position: relative;
+    right: -200px;
+    
+}
+.spec-img{
+    width: 100%;
+    height: 540px;
+    position: relative;
+    top: -25px;
+    margin-top: 50px;
+}
+.same-text{
+    font-family: "MullerBold",Regular;
+    color: #ffffff;
+    font-size: 66px;
+    position: relative;
+    right: -427px;
+    top: -360px;
+}
+
+.price{
+    color: #978d87;
+    font-family: "MullerRegular",Regular;
+    font-size: 35px;
+    position: relative;
+    top: -390px;
+    right: -427px;
+}
+.detailed{
+    color: #ffcc66;
+    font-family:"MullerRegular",Regular;
+    font-size: 16px;
+    position: relative;
+    right: -650px;
+    top: -445px;
+}
+.img-card{
+    position: relative;
+    top:-441px;
+    right:-275px ;
+}
+
+.info{
+  position: relative;
+  top: -1000px;
+}
+
+.info-title{
+    font-family: "MullerRegular",Regular;
+    font-size: 40px;
+}
+
+.info-text{
+    color: #9e9e9e;
+    font-family: "MullerRegular",Regular;
+    font-size: 16px;
+    padding-top: 35px;
+    word-spacing: 3px;
+    line-height: 32px;
+}
+
+.e-img{
+    margin-left: 300px;
+    top:105px;
+    width: 573px;
+    height: 165px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+.e-link{
+    position: relative;
+    left:350px;
+    font-family: "MullerMedium",Regular;
+    font-size: 20px;
+    margin-bottom: -35px;
+
+}
+.e-text{
+    font-family: "MullerRegular",Regular;
+    font-size: 16px;
+    color: #333333;
+    line-height: 32px;
+    position: relative;
+    left:350px;
+}
+.excl-serv{
+    position: relative;
+    top: -990px;
+    left: -300px;
+    background-color:  #f1f1f1;
+    width: 572px;
+    height: 325px;
+    border-radius: 12px;
+    z-index: 2;
+}
+.a-title{
+    color: #333333;
+    font-family: "MullerRegular",Regular;
+    font-size: 40px;
+    position: relative;
+    top:-999px;
+}
+
+.rent{
+    position: relative;
+    top: -1315px;
+    left: 195px;
+    width: 572px;
+    height: 325px;
+    border-radius: 12px;
+    z-index: 2;
+}
+.r-img{
+    margin-bottom: 40px;
+}
+.r-link{
+    font-family:"MullerMedium",Regular;
+    font-size: 22px;
+    position: relative;
+    left: 450px;
+    margin-top:40px;
+    margin-bottom: 20px;
+
+}
+.r-text{
+    font-family: "MullerRegular",Regular;
+    font-size: 16px;
+    color: #333333;
+    line-height: 32px;
+    position: relative;
+    left:450px;  
+}
+
+.bath{
+    position: relative;
+    margin-left: -390px;
+    top:-1297px;
+    width: 520px;
+    height: 165px;
+    border-radius: 12px;
+}
+.b-img{
+    margin-bottom:40px ;
+}
+.b-link{
+    position: relative;
+    left:420px;
+    font-family: "MullerMedium",Regular;
+    font-size: 20px;
+    margin-bottom: -35px;
+}
+.b-p{
+    position: relative;
+    font-size: 16px;
+    left:420px;
+    font-family: "MullerRegular",Regular;
+    color: #333333;
+    line-height: 32px;
+    
+}
+
+.car{
+    position: relative;
+    margin-left: 200px;
+    top:-1462px;
+    width: 572px;
+    height: 165px;
+    border-radius: 12px;
+}
+.car-img{
+    margin-bottom:40px ;
+}
+
+.car-link{
+    position: relative;
+    left:420px;
+    font-family: "MullerMedium",Regular;
+    font-size: 20px;
+    margin-bottom: -35px;  
+}
+
+.car-p{
+    position: relative;
+    font-size: 16px;
+    left:420px;
+    font-family: "MullerRegular",Regular;
+    color: #333333;
+    line-height: 32px;
+}
+
+
+.advantage{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   width: 1500px;
+   position: relative;
+   top: -1160px;
+   height: 719px;
+
+   
+}
+
+.cart-box{
+   width: 275px; 
+   height: 275px;
+   outline:1px solid #ffffff;
+   margin: 25px;  
+   border-radius: 12px; 
+}
+
+.cart-text{
+    position: relative;
+    top: -1180px;
+    color: #333333;
+    font-family: "MullerRegular",Regular;
+    font-size: 20px;
+    margin-bottom: -30px;
+    margin-left: -2px;
+}
+
+.img-1{
+ padding-top:45px;
+ padding-left: 45px;
+ margin: 0px;
+}
+.img-2{
+    padding-top:45px;
+    padding-left: 45px;
+    margin: 0px;
+   }
+.img-3{
+    padding-top:45px;
+    padding-left: 45px;
+    margin: 0px;
+   }
+.img-4{
+    padding-top:45px;
+    padding-left: 45px;
+    margin: 0px;
+   }
+.img-5{
+    padding-top:45px;
+    padding-left: 45px;
+    margin: 0px;
+   }
+.img-6{
+    padding-top:45px;
+    padding-left: 45px;
+    margin: 0px;
+   }
+.img-8{
+    padding-top:45px;
+    padding-left: 45px;
+    margin: 0px;
+   }
+.img-8{
+    padding-top:45px;
+    padding-left: 45px;
+    margin: 0px;
+}
+
+.cart-words{
+    margin:0px;
+    padding-left: 45px;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    font-family: "MullerRegular",Regular;
+    color: #333333;
+    line-height: 32px;
+    font-size: 16px;
+
+}
+
+.placement{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   width: 1500px;
+   position: relative;
+   top: -1160px;
+}
+.placement-text{
+    position: relative;
+    top: -1180px;
+    color: #333333;
+    font-family: "MullerRegular",Regular;
+    font-size: 20px;
+    margin-bottom: -30px;
+    margin-left: -2px;
+}
+.p-cart{   
+margin: 25px;
+width: 375px;    
+height: 441px;
+
+}
+
+.placement-img-1{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.bg-1{
+    height: 218px;
+    width: 403px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 12px;
+}
+.pl-paragraph{
+    position: relative;
+    top: -350px;
+    margin-right: 130px;
+    margin-left: 46px;
+    margin-top: 133px;
+    margin-bottom: 130px;
+    font-size: 16px;
+    font-family: "MullerRegular";
+    color: rgb(150, 150, 150);
+    line-height: 2;
+}
+.star{
+    position: relative;
+    right: -300px;
+    left: 200px;
+    top: -190px;
+    margin:0px;
+    padding: 0px;
+}
+.star-dark{
+    position: relative;
+    right: -300px;
+    left: 200px;
+    top: -190px;
+    margin:0px;
+    padding: 0px;
+}
+.pl-btn{
+    width: 100px;
+    height:40px;
+    margin: 0px;
+    margin-left: 45px;
+    border-radius: 12px;
+    position: relative;
+    top: -470px;
+    font-family: "MullerBold";
+    color: #cc9933;
+    border: 1px solid #cc9933; 
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.placement-img-2{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.placement-img-2-bg{
+    height: 218px;
+    width: 403px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 12px;
+}
+.star-2{
+    position: relative;
+    right: -300px;
+    left: 200px;
+    top: -190px;
+    margin:0px;
+    padding: 0px; 
+}
+.star-dark-2{
+    position: relative;
+    right: -300px;
+    left: 200px;
+    top: -190px;
+    margin:0px;
+    padding: 0px;
+}
+.pl-paragraph-2{
+    position: relative;
+    top: -350px;
+    margin-right: 130px;
+    margin-left: 46px;
+    margin-top: 133px;
+    margin-bottom: 130px;
+    font-size: 16px;
+    font-family: "MullerRegular";
+    color: rgb(150, 150, 150);
+    line-height: 2;
+}
+
+.pl-btn-2{
+    width: 100px;
+    height:40px;
+    margin: 0px;
+    margin-left: 45px;
+    border-radius: 12px;
+    position: relative;
+    top: -470px;
+    font-family: "MullerBold";
+    color: #cc9933;
+    border: 1px solid #cc9933; 
+    background-color: #ffffff;
+    border-radius: 12px; 
+}
+
+.placement-img-3{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.placement-img-3-bg{
+    height: 218px;
+    width: 403px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 12px;
+}
+
+.star-3{
+    position: relative;
+    right: -300px;
+    left: 200px;
+    top: -190px;
+    margin:0px;
+    padding: 0px;  
+}
+
+.pl-paragraph-3{
+   
+    position: relative;
+    top: -350px;
+    margin-right: 130px;
+    margin-left: 46px;
+    margin-top: 133px;
+    margin-bottom: 130px;
+    font-size: 16px;
+    font-family: "MullerRegular";
+    color: rgb(150, 150, 150);
+    line-height: 2;
+}
+
+.pl-btn-3{
+    width: 100px;
+    height:40px;
+    margin: 0px;
+    margin-left: 45px;
+    border-radius: 12px;
+    position: relative;
+    top: -470px;
+    font-family: "MullerBold";
+    color: #cc9933;
+    border: 1px solid #cc9933; 
+    background-color: #ffffff;
+    border-radius: 12px;  
+}
+
+.placement-img-4{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.placement-img-4-bg{
+    height: 218px;
+    width: 403px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 12px;
+}
+
+.star-4{
+    position: relative;
+    right: -300px;
+    left: 200px;
+    top: -190px;
+    margin:0px;
+    padding: 0px;  
+}
+
+.pl-paragraph-4{
+    position: relative;
+    top: -350px;
+    margin-right: 130px;
+    margin-left: 46px;
+    margin-top: 133px;
+    margin-bottom: 130px;
+    font-size: 16px;
+    font-family: "MullerRegular";
+    color: rgb(150, 150, 150);
+    line-height: 2;
+}
+
+.pl-btn-4{
+    width: 100px;
+    height:40px;
+    margin: 0px;
+    margin-left: 45px;
+    border-radius: 12px;
+    position: relative;
+    top: -470px;
+    font-family: "MullerBold";
+    color: #cc9933;
+    border: 1px solid #cc9933; 
+    background-color: #ffffff;
+    border-radius: 12px;   
+}
+
+.placement-img-5{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.placement-img-5-bg{
+    height: 218px;
+    width: 403px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 12px;
+}
+
+.star-5{
+    position: relative;
+    right: -300px;
+    left: 200px;
+    top: -190px;
+    margin:0px;
+    padding: 0px; 
+}
+
+.star-dark-5{
+    position: relative;
+    right: -300px;
+    left: 200px;
+    top: -190px;
+    margin:0px;
+    padding: 0px;
+}
+
+.pl-paragraph-5{
+    position: relative;
+    top: -350px;
+    margin-right: 130px;
+    margin-left: 46px;
+    margin-top: 133px;
+    margin-bottom: 130px;
+    font-size: 16px;
+    font-family: "MullerRegular";
+    color: rgb(150, 150, 150);
+    line-height: 2;
+}
+
+.pl-btn-5{
+    width: 100px;
+    height:40px;
+    margin: 0px;
+    margin-left: 45px;
+    border-radius: 12px;
+    position: relative;
+    top: -470px;
+    font-family: "MullerBold";
+    color: #cc9933;
+    border: 1px solid #cc9933; 
+    background-color: #ffffff;
+    border-radius: 12px;   
+}
+
+.placement-img-6{
+    margin-left: 0px;
+    margin-top: 0px;  
+}
+
+
+.placement-img-6-bg{
+    height: 218px;
+    width: 403px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 12px;
+}
+
+.star-6{
+    position: relative;
+    right: -300px;
+    left: 200px;
+    top: -190px;
+    margin:0px;
+    padding: 0px; 
+}
+
+.star-dark-6{
+    position: relative;
+    right: -300px;
+    left: 200px;
+    top: -190px;
+    margin:0px;
+    padding: 0px;
+}
+
+.pl-paragraph-6{
+    position: relative;
+    top: -350px;
+    margin-right: 130px;
+    margin-left: 46px;
+    margin-top: 133px;
+    margin-bottom: 130px;
+    font-size: 16px;
+    font-family: "MullerRegular";
+    color: rgb(150, 150, 150);
+    line-height: 2;
+}
+
+.pl-btn-6{
+    width: 100px;
+    height:40px;
+    margin: 0px;
+    margin-left: 45px;
+    border-radius: 12px;
+    position: relative;
+    top: -470px;
+    font-family: "MullerBold";
+    color: #cc9933;
+    border: 1px solid #cc9933; 
+    background-color: #ffffff;
+    border-radius: 12px;   
+}
+
+.placement-img-7{
+    margin-left: 0px;
+    margin-top: 0px;  
+}
+
+.placement-img-7-bg{
+    height: 218px;
+    width: 403px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 12px;
+}
+
+.star-7{
+    position: relative;
+    right: -300px;
+    left: 200px;
+    top: -190px;
+    margin:0px;
+    padding: 0px; 
+}
+
+.pl-paragraph-7{
+    position: relative;
+    top: -350px;
+    margin-right: 130px;
+    margin-left: 46px;
+    margin-top: 133px;
+    margin-bottom: 130px;
+    font-size: 16px;
+    font-family: "MullerRegular";
+    color: rgb(150, 150, 150);
+    line-height: 2;
+}
+
+.pl-btn-7{
+    width: 100px;
+    height:40px;
+    margin: 0px;
+    margin-left: 45px;
+    border-radius: 12px;
+    position: relative;
+    top: -470px;
+    font-family: "MullerBold";
+    color: #cc9933;
+    border: 1px solid #cc9933; 
+    background-color: #ffffff;
+    border-radius: 12px;   
+}
+
+.placement-img-8{
+    margin-left: 0px;
+    margin-top: 0px;  
+}
+
+.placement-img-8-bg{
+    height: 218px;
+    width: 403px; 
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 12px;
+}
+
+.star-8{
+    position: relative;
+    right: -300px;
+    left: 200px;
+    top: -190px;
+    margin:0px;
+    padding: 0px; 
+}
+
+.star-dark-8{
+    position: relative;
+    right: -300px;
+    left: 200px;
+    top: -190px;
+    margin:0px;
+    padding: 0px;
+}
+
+.pl-paragraph-8{
+    position: relative;
+    top: -350px;
+    margin-right: 130px;
+    margin-left: 46px;
+    margin-top: 133px;
+    margin-bottom: 130px;
+    font-size: 16px;
+    font-family: "MullerRegular";
+    color: rgb(150, 150, 150);
+    line-height: 2;
+}
+
+.pl-btn-8{
+    width: 100px;
+    height:40px;
+    margin: 0px;
+    margin-left: 45px;
+    border-radius: 12px;
+    position: relative;
+    top: -470px;
+    font-family: "MullerBold";
+    color: #cc9933;
+    border: 1px solid #cc9933; 
+    background-color: #ffffff;
+    border-radius: 12px;   
+}
+
+.placement-img-9{
+    margin-left: 0px;
+    margin-top: 0px;  
+}
+
+.pl-link{
+font-size: 22px;
+font-family: "MullerMedium";
+color:#ffffff;
+line-height: 1.455;
+position: relative;
+top:-88px;  
+padding-left: 40px;    
+}
+
+.square{
+color: #ffffff;
+border-color: rgb(255, 255, 255);
+width: 6px;
+height: 13px;
+position: relative;
+top: -140px;
+left: -50px;
+}
+
+.contacts{
+    position:relative;
+    top: -1150px;
+}
+.contacts-title{
+    color: #333333;
+    font-family: "MullerRegular",Regular;
+    font-size: 40px;
+    margin-left: -2px; 
+}
+
+.maincontacts {
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    width: 472px;
+    height: 619px;
+}
+
+.simple-title{
+    font-size: 22px;
+    font-family: "MullerBold";
+    color: rgb(102, 102, 102);
+    line-height: 1.455;
+    padding: 45px; 
+    margin-right: 80px;    
+}
+.adres{   
+    font-size: 16px;
+    font-family: "MullerRegular";
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+    position: relative;
+    top: -75px ;
+    right: -180px;
+}
+
+.line{
+    margin: 0px;
+    padding: 45px;
+    position: relative;
+    top: -100px;
+}
+.simple-title-1{
+    font-size: 22px;
+    font-family: "MullerBold";
+    color: rgb(102, 102, 102);
+    line-height: 1.455;
+    padding: 45px; 
+    margin-right: 80px;
+    position:relative;
+    top:-150px; 
+}
+
+.telephons{
+    font-size: 16px;
+    font-family: "MullerRegular";
+    color:#cfa041;
+    line-height: 1.5;
+    position: relative;
+    top: -225px ;
+    right: -180px;
+}
+.line-1{
+    margin: 0px;
+    padding: 45px;
+    position: relative;
+    top: -240px;
+}
+
+.simple-title-2{
+    font-size: 22px;
+    font-family: "MullerBold";
+    color: rgb(102, 102, 102);
+    line-height: 1.455;
+    padding: 45px; 
+    margin-right: 80px;
+    position:relative;
+    top:-280px; 
+}
+.main-text-email{
+    font-size: 16px;
+    font-family: "MullerRegular";
+    line-height: 1.5;
+    position: relative;
+    top: -355px ;
+    right: -180px;
+}
+.simple-text{
+    color:#7c7c7c;
+}
+
+.email{
+   color:#cfa041 ; 
+}
+.line-2{
+    margin: 0px;
+    padding: 45px;
+    position: relative;
+    top: -385px; 
+}
+
+.simple-title-3{
+    font-size: 22px;
+    font-family: "MullerBold";
+    color: rgb(102, 102, 102);
+    line-height: 1.455;
+    padding: 45px; 
+    margin-right: 80px;
+    position:relative;
+    top:-450px;  
+}
+
+.shedule{
+    font-size: 16px;
+    font-family: "MullerRegular";
+    color: rgb(102, 102, 102);
+    line-height: 1.5;
+    position: relative;
+    top: -523px ;
+    right: -180px;
+}
+
+.line-3{
+    margin: 0px;
+    padding: 45px;
+    position: relative;
+    top: -555px; 
+}
+
+.build{
+    width: 214px;
+    height: 70px;
+    border-radius: 12px;
+    border: 1px solid #cc9933;
+    background-color: #ffffff;
+    font-family: "MullerBold",Regular;
+    color:#cc9933 ;
+    font-size: 16px;
+    position: relative;
+    top:-580px;
+    margin-left: 60px;
+    margin-bottom:45px;
+}
+
+.us{
+    color: #333333;
+    font-family: "MullerRegular",Regular;
+    font-size: 40px;
+    margin-left: -2px; 
+    position: relative; 
+    top: -1725px; 
+    right:-695px;
+}
+.name{
+   width: 340px;
+   height: 70px;
+   position: relative;
+   top: -1725px; 
+   right:-290px;
+   margin-top: -30px;
+}
+
+.formus{
+    position: relative;
+    top:-1775px;
+    right:-690px;
+}
+.inputs-bg{
+    position: relative;
+    top:-1725px;
+    right:-690px;
+}
+
+.usinput{
+   display: flex;
+   border-radius: 12px;
+   width:340px;
+   height: 70px;
+   margin-bottom: 16px;
+   color:#999999;
+   font-family: "MullerRegular";
+   border: 1px solid #ffffff;
+}
+.usinput-msg{
+display: flex;
+   border-radius: 12px;
+   width:340px;
+   height: 110px;
+   margin-bottom: 16px;
+   color:#999999;
+   font-family: "MullerRegular";
+   border: 1px solid #ffffff;
+}
+.btn-sub{
+
+    margin-top: -15px;
+    border: #ffffff 1px solid;
+    font-family: "MullerBold",sans-serif;
+    border-radius: 12px;
+    background-color: rgb(204, 153, 51);
+    color: #ffffff;
+    position: relative;
+    left: 688px;
+    top: -1755px;
+    width: 340px;
+    height: 70px;  
+}
+
+.footer{
+    display: block;
+    position: relative;
+    top: -1700px;
+}
+.footer-year{
+    width: 380px;
+    height: 45px;
+    font-size: 16px;
+    font-family: "MullerRegular",sans-serif;
+    line-height: 35px;
+    color: #ffffff;
+    padding-left: 60px;
+    position: relative;
+    left: 390px;
+    top: -300px;
+}
+.info-footer{
+    width: 400px;
+    height: 45px;
+    font-size: 16px;
+    font-family: "MullerRegular",sans-serif;
+    line-height: 35px;
+    color: #ffffff;
+    padding-left: 60px;
+    position: relative;
+    left: 390px;
+    top: -240px;
+}
+
+.police{
+    font-size: 16px;
+    font-family: "MullerRegular",sans-serif;  
+    padding-left: 60px;
+    position: relative;
+    left: 390px;
+    top: -150px;
+}
+
+.street{
+    width: 450px;
+    height: 45px;
+    font-size: 16px;
+    font-family: "MullerRegular",sans-serif;
+    line-height: 35px;
+    color: #ffffff;
+    position: relative;
+    margin-left: 125px;
+    left: 810px;
+    top: -405px;
+}
+
+.tel{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    width: 450px;
+    height: 45px;
+    font-size: 16px;
+    font-family: "MullerRegular",sans-serif;
+    line-height: 35px; 
+    position: relative;
+    margin-left: 125px;
+    left: 810px;
+    top: -405px; 
+}
+.email_footer{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 45px;
+    font-size: 16px;
+    font-family: "MullerRegular",sans-serif;
+    line-height: 35px; 
+    position: relative;
+    margin-left: 125px;
+    left: 810px;
+    top: -355px;  
+}
+
+
+.sun{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    top: -513px;
+    left: 800px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    top: -830px;
+    left: 1100px;
+}
